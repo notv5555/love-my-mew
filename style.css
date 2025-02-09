@@ -82,8 +82,8 @@ textarea {
 
 /* CSS for Sticker sizes */
 :root {
-    --sticker-size-top-left: 100%;
-    --sticker-size-top-right: 100%;
+    --sticker-size-top-left: 50%;
+    --sticker-size-top-right: 50%;
     --sticker-size-bottom-left: 100%;
     --sticker-size-bottom-right: 100%;
 }
