@@ -133,7 +133,7 @@ textarea {
     object-fit: cover;
     animation-play-state: running; /* ทำให้ GIF เล่นตลอด */
 }
-textarea {
+#page2 textarea {
     width: 90%;
     height: 150px;  /* กำหนดความสูงเริ่มต้น */
     margin-top: 20px;
