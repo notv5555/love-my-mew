@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Surprise</title>
+    <link rel="stylesheet" href="style.css"> <!-- ลิงก์ไปยังไฟล์ CSS -->
+</head>
+<body>
+    <div class="container" id="page1">
+        <div class="safe-icon">
+            <i class="fas fa-lock"></i>
+        </div>
+        <h2>🔐 ใส่รหัสลับเพื่อรับเซอร์ไพรส์ 💖</h2>
+        <input type="password" id="password" placeholder="🔑 ใส่รหัสลับ">
+        <button onclick="checkPassword()">💘 เข้าสู่เซอร์ไพรส์ 💘</button>
+    </div>
+    
+    <div class="container" id="page2">
+        <h1>💖 เซอร์ไพรส์! รักนะ 💖</h1>
+        <p>ขอให้มีความสุขในวันวาเลนไทน์นะ 💕</p>
+        <textarea readonly></textarea> <!-- ทำให้ textarea อ่านได้เท่านั้น -->
+
+        <!-- เพิ่มรูปภาพในมุมต่าง ๆ ของกระดาษโน๊ต -->
+        <div class="image top-left">
+            <img src="https://cdn.discordapp.com/attachments/1181993469707821179/1337996531797590026/25e543bf9e35171ef1fdd476468844d7.gif?ex=67a979df&is=67a8285f&hm=6378ffe9412815eda4ad4754f044ca5472833481a57fbce53846dd2dff3577e3&" alt="Sticker 1"> <!-- ใช้รูป GIF หรือรูปภาพปกติ -->
+        </div>
+        <div class="image top-right">
+            <img src="https://cdn.discordapp.com/attachments/1181993469707821179/1337996532288327700/c99c51fb08fde666e802e4f4be3eff5f.gif?ex=67a979e0&is=67a82860&hm=eb579cb7d3f4f45f40200d5f72b4d6bae0f207f80fbb9819186327cf72b42e30&" alt="Sticker 2">
+        </div>
+        <div class="image bottom-left">
+            <img src="https://cdn.discordapp.com/attachments/1181993469707821179/1337996532749828227/ba1eaff5d224d297c52fb786eeeff900.gif?ex=67a979e0&is=67a82860&hm=552dfc106b559e9b80c0f178e53ba440c3aa64e8b5dfe780c8fdee9269180d20&" alt="Sticker 3">
+        </div>
+        <div class="image bottom-right">
+            <img src="https://cdn.discordapp.com/attachments/1181993469707821179/1337992732739895306/f074ee7eacf66b62b5846a06b2c422d0.gif?ex=67a97656&is=67a824d6&hm=0ccdc366ee1245fa500a129349e8a8867cf6d17dceca9c983fb4fcf69b47b89c&" alt="Sticker 4">
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script> <!-- ลิงก์ไปยังไฟล์ JavaScript -->
+</body>
+</html>
