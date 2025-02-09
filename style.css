@@ -91,10 +91,10 @@ textarea {
 
 /* CSS for Sticker sizes */
 :root {
-    --sticker-size-top-left: 15vw;   /* ปรับขนาดตามความกว้างของหน้าจอ */
-    --sticker-size-top-right: 15vw;  /* ปรับขนาดตามความกว้างของหน้าจอ */
-    --sticker-size-bottom-left: 15vw;/* ปรับขนาดตามความกว้างของหน้าจอ */
-    --sticker-size-bottom-right: 15vw;/* ปรับขนาดตามความกว้างของหน้าจอ */
+    --sticker-size-top-left: 5vw;   /* ปรับขนาดตามความกว้างของหน้าจอ */
+    --sticker-size-top-right: 5vw;  /* ปรับขนาดตามความกว้างของหน้าจอ */
+    --sticker-size-bottom-left: 5vw;/* ปรับขนาดตามความกว้างของหน้าจอ */
+    --sticker-size-bottom-right: 5vw;/* ปรับขนาดตามความกว้างของหน้าจอ */
 }
 
 /* Styles for images in corners */
@@ -157,9 +157,9 @@ textarea {
 /* Media Query สำหรับอุปกรณ์ที่มีหน้าจอขนาดเล็ก เช่น โทรศัพท์มือถือ */
 @media (max-width: 600px) {
     :root {
-        --sticker-size-top-left: 20vw;   /* เพิ่มขนาดให้ใหญ่ขึ้นในหน้าจอขนาดเล็ก */
-        --sticker-size-top-right: 20vw;
-        --sticker-size-bottom-left: 20vw;
-        --sticker-size-bottom-right: 20vw;
+        --sticker-size-top-left: 10vw;   /* เพิ่มขนาดให้ใหญ่ขึ้นในหน้าจอขนาดเล็ก */
+        --sticker-size-top-right: 10vw;
+        --sticker-size-bottom-left: 10vw;
+        --sticker-size-bottom-right: 10vw;
     }
 }
