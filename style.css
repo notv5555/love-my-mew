@@ -82,10 +82,10 @@ textarea {
 
 /* CSS for Sticker sizes */
 :root {
-    --sticker-size-top-left: 50%;
-    --sticker-size-top-right: 50%;
+    --sticker-size-top-left: 45%;
+    --sticker-size-top-right: 45%;
     --sticker-size-bottom-left: 60%;
-    --sticker-size-bottom-right: 60%;
+    --sticker-size-bottom-right: 75%;
 }
 
 /* Styles for images in corners */
@@ -103,7 +103,7 @@ textarea {
 }
 
 .image.top-right {
-    top: -30px;
+    top: -40px;
     right: -35px;
     width: 150px;
     height: 150px;
