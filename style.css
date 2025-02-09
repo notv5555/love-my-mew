@@ -103,8 +103,8 @@ textarea {
 }
 
 .image.top-right {
-    top: -70px;
-    right: -37px;
+    top: -64px;
+    right: -40px;
     width: 150px;
     height: 150px;
     transform: scale(var(--sticker-size-top-right));
