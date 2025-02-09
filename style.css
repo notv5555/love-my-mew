@@ -133,3 +133,16 @@ textarea {
     object-fit: cover;
     animation-play-state: running; /* ทำให้ GIF เล่นตลอด */
 }
+textarea {
+    width: 90%;
+    height: 150px;  /* กำหนดความสูงเริ่มต้น */
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid red;
+    resize: none;
+    font-family: 'Itim', cursive;
+    pointer-events: none; /* ป้องกันไม่ให้การคลิกส่งผลกับ GIF */
+    overflow-y: auto; /* ทำให้สามารถเลื่อนขึ้นลงได้ */
+}
