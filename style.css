@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
-
 body {
     display: flex;
     justify-content: center;
@@ -11,23 +10,19 @@ body {
     overflow: hidden;
     position: relative;
 }
-
 .container {
     text-align: center;
 }
-
 .safe-icon {
     font-size: 50px;
     margin-bottom: 10px;
     color: red;
 }
-
 h2 {
     font-size: 30px;
     color: white;
     text-shadow: 3px 3px 6px red;
 }
-
 input {
     margin-top: 15px;
     padding: 15px;
@@ -38,7 +33,6 @@ input {
     text-align: center;
     font-family: 'Itim', cursive;
 }
-
 button {
     margin-top: 15px;
     padding: 15px 30px;
@@ -51,7 +45,6 @@ button {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     font-family: 'Itim', cursive;
 }
-
 button:hover {
     background-color: darkred;
 }
@@ -71,11 +64,9 @@ button:hover {
     text-align: center;
     overflow: hidden;
 }
-
 #page2.show {
     bottom: 50px;
 }
-
 textarea {
     width: 90%;
     height: 100px;
@@ -91,10 +82,10 @@ textarea {
 
 /* CSS for Sticker sizes */
 :root {
-    --sticker-size-top-left: 5vw;   /* ปรับขนาดตามความกว้างของหน้าจอ */
-    --sticker-size-top-right: 5vw;  /* ปรับขนาดตามความกว้างของหน้าจอ */
-    --sticker-size-bottom-left: 5vw;/* ปรับขนาดตามความกว้างของหน้าจอ */
-    --sticker-size-bottom-right: 5vw;/* ปรับขนาดตามความกว้างของหน้าจอ */
+    --sticker-size-top-left: 20%;
+    --sticker-size-top-right: 20%;
+    --sticker-size-bottom-left: 45%;
+    --sticker-size-bottom-right: 45%;
 }
 
 /* Styles for images in corners */
@@ -104,62 +95,41 @@ textarea {
 }
 
 .image.top-left {
-    top: 5vw;   /* ตั้งระยะห่างจากขอบบน */
-    left: 5vw;  /* ตั้งระยะห่างจากขอบซ้าย */
-    width: var(--sticker-size-top-left); /* ใช้ขนาดที่กำหนดใน :root */
-    height: var(--sticker-size-top-left); /* ใช้ขนาดที่กำหนดใน :root */
-    transform: scale(1);
+    top: 10px;
+    left: 10px;
+    width: 150px;
+    height: 150px;
+    transform: scale(var(--sticker-size-top-left));
 }
 
 .image.top-right {
-    top: 5vw;
-    right: 5vw; /* ตั้งระยะห่างจากขอบขวา */
-    width: var(--sticker-size-top-right);
-    height: var(--sticker-size-top-right);
-    transform: scale(1);
+    top: 10px;
+    right: 10px;
+    width: 150px;
+    height: 150px;
+    transform: scale(var(--sticker-size-top-right));
 }
 
 .image.bottom-left {
-    bottom: 5vw;
-    left: 5vw;
-    width: var(--sticker-size-bottom-left);
-    height: var(--sticker-size-bottom-left);
-    transform: scale(1);
+    bottom: 10px;
+    left: 10px;
+    width: 150px;
+    height: 150px;
+    transform: scale(var(--sticker-size-bottom-left));
 }
 
 .image.bottom-right {
-    bottom: 5vw;
-    right: 5vw;
-    width: var(--sticker-size-bottom-right);
-    height: var(--sticker-size-bottom-right);
-    transform: scale(1);
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+    height: 150px;
+    transform: scale(var(--sticker-size-bottom-right));
 }
 
 /* ทำให้ GIF เล่นตลอดเวลา */
-.gif {
+.image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    animation: gifAnimation 3s infinite; /* ตั้งค่าให้ GIF เล่นตลอดเวลา */
     animation-play-state: running; /* ทำให้ GIF เล่นตลอด */
-}
-
-/* สร้างแอนิเมชันสำหรับ GIF */
-@keyframes gifAnimation {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-/* Media Query สำหรับอุปกรณ์ที่มีหน้าจอขนาดเล็ก เช่น โทรศัพท์มือถือ */
-@media (max-width: 600px) {
-    :root {
-        --sticker-size-top-left: 10vw;   /* เพิ่มขนาดให้ใหญ่ขึ้นในหน้าจอขนาดเล็ก */
-        --sticker-size-top-right: 10vw;
-        --sticker-size-bottom-left: 10vw;
-        --sticker-size-bottom-right: 10vw;
-    }
 }
