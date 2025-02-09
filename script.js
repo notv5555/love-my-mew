@@ -1,6 +1,6 @@
 function checkPassword() {
     const password = document.getElementById("password").value;
-    if (password === "19/09/2023") { // ตั้งรหัสตรงนี้
+    if (password === "19092023") { // ตั้งรหัสตรงนี้
         document.getElementById("page1").style.display = "none";
         document.getElementById("page2").style.display = "block";
         document.getElementById("page2").classList.add("show");
